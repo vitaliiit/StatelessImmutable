@@ -28,8 +28,6 @@ public final class ImmutableCat {
         ImmutableCat c = new ImmutableCat(this.breed, eyeColor);
         return c;
 
-
-
     }
 }
 

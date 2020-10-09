@@ -1,18 +1,16 @@
 import java.util.ArrayList;
 public class Test {
 
-    public static void main(String [] args)
-    {
+    public static void main(String [] args) {
 
         ArrayList<ImmutableCat>myImmutableCat = new ArrayList<>();
-
 
         ImmutableCat first = new ImmutableCat("Bengal", "green");
         ImmutableCat second = first.setBreed("Sphynx");
         first.setBreed("sybirian");
 
-
         System.out.println("-----");
+
         myImmutableCat.add(first);
         myImmutableCat.add(second);
 
